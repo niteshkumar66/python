@@ -8,3 +8,5 @@ teacher_experience = True
 
 print('Namaste Youtube we are learning python')
 
+python = 'Learning'
+
