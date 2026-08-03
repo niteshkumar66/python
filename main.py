@@ -39,8 +39,8 @@ line = 'He is a very good coder and also known as SHER CODER'
 
 
 dog =  14
-print(type(dog))
-print(type(str(dog)))
+# print(type(dog))
+# print(type(str(dog)))
 
 
 # a = '12abc3'            # cannot convert alphabet string to integer
@@ -50,11 +50,11 @@ print(type(str(dog)))
 
 
 string = 'hello'
-print(bool(string))
+# print(bool(string))
 
 
 string = 0
-print(bool(string))
+# print(bool(string))
 
 
 # falsy values 
@@ -67,3 +67,36 @@ print(bool(string))
 {}
 ()
 '''
+
+num = 12
+# print(num/3)
+
+# Input and Output
+
+# name = input("Enter Your Name : ")
+
+# print(type(name))
+
+# age = int(input("Enter your age : "))
+
+# print(type(age))
+
+# print("Your name is : " , name)
+
+# print("My Name is " , name , "and the age is ", age)
+
+# print(f"My name is {name} and the age is {age}")
+
+a = 20
+b = 12
+
+# print(a+b)      # addition
+# print(a-b)      # subtraction
+# print(a*b)      # Multiply
+# print(a/b)      # Division
+# print(a%b)      # Modulus 
+# print(a//b)     # floor division : Remove the value after decimal and return integer only
+# print(a**b)     # Exponential 
+
+
+print(12+4/2)
