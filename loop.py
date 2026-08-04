@@ -16,7 +16,12 @@
 # for i in range(5,51,5):
     # print(i)
 
-n = int(input("which table u want ? "))
+# n = int(input("which table u want ? "))
 
-for i in range(n,(n*10)+1 , n):
-    print(i)
+# for i in range(n,(n*10)+1 , n):
+#     print(i)
+
+a = 'sheryians'
+
+for i in range(len(a)) :
+    print(a[i])
