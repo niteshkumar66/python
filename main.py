@@ -136,3 +136,14 @@ b = 12
 
 # print("ABC" > "BCD")
 
+# Logical Operators  : and , or , not 
+
+# print(123 > 100 and 34  == 34 and 45 < 23)
+
+# print(123 > 100 or 34 != 34 or 45 > 90)
+
+# print(123 > 100 and 34  == 34 or 45 > 90)
+
+# print(not (12 == 12))
+
+# print(True and bool(0))
