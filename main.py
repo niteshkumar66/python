@@ -117,3 +117,22 @@ a += 60
 
 # print (a)
 
+a = 12.1
+b = 12
+
+# Comparison Operators
+
+# print(a == b)
+# print(a != b)
+
+# print(a > b)
+# print(45 > 67)
+# print(23 >= 23)
+# print(23 <= 23)
+
+# print(ord("A"))
+# print(ord("B"))
+# print(ord("ABC"))       # ord() function is not valid on string more than 1 character , only work on a character 
+
+# print("ABC" > "BCD")
+
