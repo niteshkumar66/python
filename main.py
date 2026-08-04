@@ -99,4 +99,21 @@ b = 12
 # print(a**b)     # Exponential 
 
 
-print(12+4/2)
+# print(12+4/2)
+
+
+# Assignment operators 
+
+a = 23
+
+# compound assignment operations 
+
+a = 20 
+
+a += 20
+
+a += 40
+a += 60
+
+# print (a)
+
