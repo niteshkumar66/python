@@ -163,3 +163,68 @@
 
 
 # print(dir(str))
+
+
+ # while loops 
+
+# a = 1
+# while (a <= 30):
+#     print(a)
+#     a += 1
+
+
+# num = int(input("Enter you number : "))
+# while (num > 0):
+#     print(num % 10)
+#     num //= 10
+
+
+# num = int(input("Enter you number : "))
+# newNum = 0
+# while (num > 0):
+#     rem = num % 10
+#     newNum = newNum * 10 + rem
+#     num //= 10
+
+# print(newNum)
+
+
+# num = int(input("Enter you number : "))
+# newNum = 0
+# dubNum = num
+# while (dubNum > 0):
+#     rem = dubNum % 10
+#     newNum = newNum * 10 + rem
+#     dubNum //= 10
+
+# if (newNum == num ):
+#     print(f"{num} is Palindrome")
+# else : 
+#     print(f"{num} is not Palindrome")
+
+
+import random
+
+num = random.randint(1,10)
+
+tries = 0
+
+while(True):
+    guess = int(input("Please guess the number between 1 t0 10 : "))
+
+    if (num == guess):
+        tries += 1
+        print(f"You guessed it correctly in {tries} tries")
+        break
+
+    elif ( num < guess):
+        tries += 1
+        print("Guess a little lower value")
+
+    elif ( num > guess):
+        tries += 1
+        print("Guess a little higher value")
+    else :
+        tries += 1
+        print("try again")
+
