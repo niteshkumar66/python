@@ -14,11 +14,84 @@ a = [12 , 13, 14 , 15, 16, 34.5 ]
 
 # 1st way using index
 
-for i in range(len(a)):
-    print(a[i])
+# for i in range(len(a)):
+#     print(a[i])
 
 # 2nd way using direclty on value 
 
-for i in a:
-    print(i)
+# for i in a:
+#     print(i)
+
+
+# print(dir(list))
+# help(list)
+
+
+l = [1,2,2,3,4,5,6]
+# l.append(6)
+# l.append(7)
+
+# l.extend([4,5,6])
+
+# l.insert(1,2)
+
+# pop_item = l.pop(4)
+# print(pop_item)
+
+# print(l.index(4))
+
+# print(l.count(2))
+
+# l.reverse()
+
+# m = l.copy()
+
+# l.remove(5)
+
+# print(m)
+
+
+# l[0] = 10
+# print(l)
+
+#print positive and negative number of list
+
+# li = [1, -4, 5, -10, -21, 45]
+# pos_li = []
+# neg_li = []
+
+# for i in range (len(li)):
+#     if (li[i] >= 0 ):
+#         pos_li.append(li[i])
+#     else :
+#         neg_li.append(li[i])
+
+# print(f"Positive Numbers are {pos_li}")
+# print(f"Negative Numbers are {neg_li}")
+
+
+# mean of the list 
+
+# a = [1,4,5,7,8,19,34]
+# sum = 0
+# for i in a :
+#     sum += i
+
+# print(sum/len(a))
+
+
+# find the greatest element and print its index too
+
+# a = [2,4,6,8,16,12,14]
+# max = a[0]
+# index = 0
+
+# for i in range(1, len(a)):
+#     if (a[i] > max):
+#         max = a[i]
+#         index = i
+
+
+# print(f"maximum value is {max} at the index {index}")
+
 
