@@ -1,5 +1,5 @@
 # Mutable : change of any value is allowed 
-# duplicat : there can be multiple Value
+# duplicat : there can be multiple same Value 
 # ordered : elements can be accessed in the same order as they are inserted by index value 
 # heterogenous : allow to store multiple datatype in a single list 
 
