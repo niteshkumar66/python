@@ -94,4 +94,45 @@ l = [1,2,2,3,4,5,6]
 
 # print(f"maximum value is {max} at the index {index}")
 
+# find the second largest number of the list
 
+# a = [2,5,10,3,19,17]
+# max = a[0]
+# sec_max = a[0]
+
+# for i in a:
+#     if i > max:
+#         sec_max = max
+#         max = i
+#     elif i > sec_max:
+#         sec_max = i
+
+# print(f"maximum value is {max} and second maximum value is {sec_max}")
+
+
+# check if the list is sorted or not 
+
+# a = [1,2,3,4,5]
+a = [2,5,10,3,19,17]
+# max = a[0]
+
+# for i in a :
+#     if i > max:
+#         max = i
+#     elif i < max :
+#         print("Unsorted List")
+#         break
+
+# else : 
+#     print("Sorted List")
+
+#effective approach 
+
+for i in range(len(a)-1):
+    if a[i] < a[i+1]:
+        continue
+    else : 
+        print("Unsorted List")
+        break
+else : 
+    print("Sorted List")
