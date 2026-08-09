@@ -40,5 +40,23 @@ d = {1: 100, 2: 200 , 3: 300, 4: 400}
 
 # d.clear()                 # clear the all key and value
 
+# d2 = d.copy()               # create a shallow copy the dictonary
+# del d2[3]
 
-help(dict)
+# print(d)
+
+# print(d.get(2))
+                        # both are same 
+# print(d[2])
+
+# print(d.items())
+
+# d1 = d.pop(2)             # pop the key from the dictornary and return the value to other variable
+# print(d)
+# print(d1)
+
+# d1 = d.popitem()          # pop the last key from the dictonary and return the key value pair to other variable
+# print(d)
+# print(d1)
+
+# help(dict)
