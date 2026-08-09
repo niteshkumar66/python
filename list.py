@@ -137,12 +137,25 @@ a = [2,5,10,3,19,17]
 # else : 
 #     print("Sorted List")
 
+
+
 # Deep Copy
 
-a = [1,2,3,4,5]
+# a = [1,2,3,4,5]
 
-b = a
+# b = a
 
-b[0] = 100
+# b[0] = 100              # the change in b list will affect in the a list also , this is known as Deep Copy
 
-print(a)
+# print(a)
+
+
+# Shallow Copy
+
+# a = [1,2,3,4]
+
+# b = a.copy()
+
+# b[0] = 100
+
+# print(a)
