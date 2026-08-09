@@ -128,11 +128,21 @@ a = [2,5,10,3,19,17]
 
 #effective approach 
 
-for i in range(len(a)-1):
-    if a[i] < a[i+1]:
-        continue
-    else : 
-        print("Unsorted List")
-        break
-else : 
-    print("Sorted List")
+# for i in range(len(a)-1):
+#     if a[i] < a[i+1]:
+#         continue
+#     else : 
+#         print("Unsorted List")
+#         break
+# else : 
+#     print("Sorted List")
+
+# Deep Copy
+
+a = [1,2,3,4,5]
+
+b = a
+
+b[0] = 100
+
+print(a)
