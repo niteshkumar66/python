@@ -77,7 +77,22 @@ def update_file():
         print(f"An error occured as {err}")
 
 
+def delete_file():
+    try:
+        read_file_and_folder()
+        name = input("Which file you want to delete : ")
+        p = Path(name)
 
+        if p.exists() and p.is_file():
+            os.remove()
+
+            print("File Deleted Successfully ")
+
+        else : 
+            print("No such file exists ")
+
+    except Exception as err:
+        print(f"An error occured as {err}")
             
         
 
@@ -97,4 +112,5 @@ if check == 2 :
 if check == 3 :
     update_file()
 
-
+if check == 4:
+    delete_file()
