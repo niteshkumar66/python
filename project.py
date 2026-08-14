@@ -1,31 +1,36 @@
 from pathlib import Path 
 
-def readfile_and_folder():
-    path = Path('') 
+def read_file_and_folder():
+    path = Path('')
     items = list(path.rglob('*'))
     for i,items in enumerate(items):
-        print(f"{i+1} : {items} ")
+        print(f"{i+1} : {items}")
 
-def createfile():
+def create_file():
     try : 
-        readfile_and_folder()
+        read_file_and_folder()
         name = input("Please tell your file name : ")
         p = Path(name)
-        with open(p,"w") as fs:
-            data = input("what do you want to write in the file :  ")
-            fs.write(data)
+        if not p.exists():
+            with open(p , "w") as fs :
+                data = input("What you want to write in the file : ")
+                fs.write(data)
 
-        print("File Created Successfully")
+            print("File Created Successfully !")
+        else : 
+            print("This file already exists !")
 
-    except Exception as err: 
+    except Exception as err :
         print(f"An error occured as {err}")
 
-print("Press 1 for creating a file")
-print("Press 2 for reading a file")
-print("Press 3 for updating a file")
-print("Press 4 for deleting a file")
 
-check = int(input("Please Tell your Response : "))
+
+print("1 for creating the file")
+print("2 for reading the file")
+print("3 for updating the file")
+print("4 for deleting the file")
+
+check = int(input("Please tell your response : "))
 
 if check == 1 : 
-    createfile()
+    create_file()
