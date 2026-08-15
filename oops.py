@@ -21,7 +21,17 @@ class  Animal :
 
     print("How are you i am getting initialized")
 
-Animal()
-print(Animal().a)
-Animal().hello()
+obj = Animal()
+# print(obj.a)
+# print(obj.species)
+# obj.hello()
+
+obj2 = Animal()
+
+obj3 = Animal()
+obj3.hello()
+
+# Animal()
+# print(Animal().a)
+# Animal().hello()
 
