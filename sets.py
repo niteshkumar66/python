@@ -16,8 +16,8 @@
 
 # set methods 
 
-a = {1,2,3,5,7,9}
-b = {3,5,2,4,6,8,}
+# a = {1,2,3,5,7,9}
+# b = {3,5,2,4,6,8,}
 
 # a.remove(3)                           # raise error if element not found
 # a.discard(3)                          # raise no error if element not found
@@ -32,4 +32,4 @@ c = a.union(b)                        # c = a|b
 # c = b.difference(a)                   # c = b-a
 # c = a.symmetric_difference(b)         # c = a ^ b
 
-print(c)
+# print(c)
