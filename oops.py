@@ -116,24 +116,44 @@ class  Animal :
 # person1.show()
 
 
-class Animal:
-    name1 = "Lion"
+# class Animal:
+#     name1 = "Lion"
 
-    def __init__(self,name):
-        pass
+#     def __init__(self,name):
+#         pass
 
-class Human:
-    name2 = "Nitesh"
+# class Human:
+#     name2 = "Nitesh"
 
-    def __init__(self,name,age):
-        pass
+#     def __init__(self,name,age):
+#         pass
 
-class Robots(Animal,Human):
-    name3 = "Charlie123"
+# class Robots(Animal,Human):
+#     name3 = "Charlie123"
 
 
-obj = Robots("Nitesh")
+# obj = Robots("Nitesh")
 
-print(obj.name1 )
-print(obj.name2)
-print(obj.name3)
+# print(obj.name1 )
+# print(obj.name2)
+# print(obj.name3)
+
+
+# class Factory :
+#     def __init__(self, material, zip):
+#         self.material = material
+#         self.zip = zip
+
+# class Bhopal_Factory(Factory):
+#     def __init__(self, material, zip,color):
+#         super().__init__(material, zip)
+#         self.color = color
+
+# class Pune_Factory(Bhopal_Factory):
+#     def __init__(self, material, zip, color,pocket):
+#         super().__init__(material, zip, color)
+#         self.pocket = pocket
+
+
+# obj = Pune_Factory("Leather",3,"Black",3)
+# print(obj)
