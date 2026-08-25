@@ -50,6 +50,11 @@
 # else : 
 #     print(f"{year} is not a leap year")
 
+# if(65 == "a"):
+#     print('Hello')
+# else:
+#     print("Hiii")
+
 
 temp = float(input("Enter temperature in celcius : "))
 if (temp < 0):

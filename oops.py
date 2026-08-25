@@ -157,3 +157,8 @@ class  Animal :
 
 # obj = Pune_Factory("Leather",3,"Black",3)
 # print(obj)
+
+
+# Polymorphism in oops
+
+
