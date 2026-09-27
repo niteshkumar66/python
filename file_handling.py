@@ -15,4 +15,6 @@ r.close()
 
 r = open('superman.txt','a')        # mode  -- 'a' , add the content to the file at last 
 r.write("and i am appending some text to the file ")
+r.write("Also doing file handling in python in vs code")
 r.close()
+
