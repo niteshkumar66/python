@@ -40,7 +40,7 @@ class  Animal :
 
 # class  Animal :
 #     def __init__(self,type,breed):
-#         # print(self)
+#         print(self)
 #         self.type = type
 #         self.breed = breed
 
