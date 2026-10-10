@@ -45,7 +45,7 @@ class  Animal :
 #         self.breed = breed
 
 #     def show(self):
-#         print(f"Your objects are {self.breed},{self.type}")
+#         print(f"Your objects are {self.breed},{self.type}") 
 
 # dog = Animal("Dog","Pamerian")
 
