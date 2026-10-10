@@ -19,7 +19,11 @@ class  Animal :
     def hello (self):
         print("Hello World")        # Method 
 
-    # print("How are you i am getting initialized")
+    print("How are you i am getting initialized")
+
+# print(Animal().species)
+
+# Animal().hello()
 
 # obj = Animal()
 # print(obj.a)
