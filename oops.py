@@ -230,3 +230,52 @@
 
 ######################## Encapsulation #######################
 
+# class Factory:
+#     _a = "pune"             # protected variable use (underscore _ )
+
+#     def show(self):
+#         print("Hello , I am a pune factory")
+
+# obj = Factory()
+
+# # obj.show()
+
+# class Bhopal (Factory):
+#     def show2(self):
+#         print(super()._a)       # not work in python (protected access modifier)
+
+# obj = Bhopal()
+# obj.show2()
+
+
+# class Factory:
+#     __a = "pune"             # private variable use (double underscore __ )
+
+#     def __show(self):
+#         print("Hello , I am a pune factory")
+
+# obj = Factory()
+
+# # obj.show()
+
+# class Bhopal (Factory):
+#     def show2(self):
+#         print(super()._a)       # No one can access the method or variable
+
+# obj = Bhopal()
+# obj.show2()
+
+
+# class Factory :
+#     __a = "Bhopal"
+#                                     # accessing inside the class , outside cannot be access not can change the value
+#     def show (self):
+#         print(Factory.__a)
+
+# obj = Factory()
+
+# obj.show()
+
+
+####################### Abstraction ##########################
+
