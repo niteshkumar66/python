@@ -279,3 +279,95 @@
 
 ####################### Abstraction ##########################
 
+# from abc import ABC , abstractmethod
+
+# class Abstract(ABC):
+#     @abstractmethod
+#     def perimeter(self):
+#         pass
+
+#     @abstractmethod
+#     def area(self):
+#         pass
+
+
+# class Square(Abstract):
+#     def __init__(self,side):
+#         self.side = side
+
+#     def perimeter(self):
+#             print("I have calculated")
+    
+#     def area(self):
+#         print("I have created")
+
+
+# class Circle(Abstract):
+#     def __init__(self,radius):
+#         self.radius = radius
+
+#     def perimeter(self):
+#         print("I have calculated")
+
+#     def area(self):
+#         print("I have created")
+
+
+# obj = Circle(7)
+# obj2 = Square(4)
+
+# obj.area()
+
+
+####################### Dunder Methods #####################
+
+# Dunder means double underscore (__)
+# Those special methods which are created with double underscore (__)
+
+# class Person:
+#     def __init__(self,name):
+#         self.name = name 
+
+# p = Person("Ravi")
+# print(p.name)
+
+
+# class Animal:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+#     def __str__(self):
+#         return f"How are you and your name is {self.name}"
+
+#     def __add__(self, other):
+#         return f"Your sum of ages are {self.age + other.age}"
+
+
+# obj = Animal("Lion",25)
+# obj2 = Animal("Dolphin",20)
+
+# print(obj + obj2)
+
+
+# class Animal:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+#     def __str__(self):
+#         return f"How are you and your name is {self.name}"
+
+#     def __add__(self, other):
+#         sum = 0
+#         for i in other:
+#             sum = sum + i.age
+
+#         return f"Your sum of ages are {self.age + sum}"
+
+
+# obj = Animal("Lion",25)
+# obj2 = Animal("Dolphin",20)
+# obj3 = Animal("Deer",15)
+
+# print(obj + (obj2,obj3))
