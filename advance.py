@@ -24,16 +24,44 @@
 
 
 
-def decorate(func):
-    def wrapper(*args):             # ->  *args : will accept numerous arguments in the wrapper function 
-        print("the addition to your numbers are : ")
-        func(*args)
-        print("Thank you ! I hope you liked it")
-    return wrapper
+# def decorate(func):
+#     def wrapper(*args,**kwargs):             # ->  *args : will accept numerous arguments in the wrapper function 
+#         print("the addition to your numbers are : ")
+#         func(*args,**kwargs)
+#         print("Thank you ! I hope you liked it")
+#     return wrapper
 
 
-@decorate
-def addition(a,b,c):
-    print(f"Your total is {a+b+c}")
+# @decorate
+# def addition(a,b,c):
+#     print(f"Your total is {a+b+c}")
 
-addition(12,67,30)
+# addition(12,67,30)
+
+
+# def add(*args):           # for normal arguments -> use single star (*keywords(any)) -> args
+#     sum = 0
+#     for i in args:
+#         sum += i
+
+#     print(sum)
+
+# add(12,14,23,12,55,65)
+
+# store arguments in the form of tuple // no need of args keyword compulsory
+
+
+# def add(**kwargs):          # for positional arguments -> use double star (**keywords(any)) -> kwargs
+#     print(kwargs)
+
+# add(a = 12 , b = 34 , c = 20)
+
+# store arguments in the form of dictonary // no need of kwargs keyword compulsory  
+
+
+# def information(**kwargs):         
+#     print("Your information is : \n")
+#     for i in kwargs:
+#         print(f"{i} : {kwargs[i]}")
+
+# information(name = "Nitesh" , age = 23 , role = "AI & ML Engineer")
