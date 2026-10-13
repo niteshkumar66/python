@@ -65,3 +65,19 @@
 #         print(f"{i} : {kwargs[i]}")
 
 # information(name = "Nitesh" , age = 23 , role = "AI & ML Engineer")
+
+
+
+# a = 12
+# print("even") if a % 2 == 0 else print("odd")
+
+# l = []
+# for i in range(1,21):
+#     if i % 2 == 0:
+#         l.append(i)
+
+# print(l)
+
+
+l = [i for i in range(1,21) if i % 2 == 0]
+print(l)
