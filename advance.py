@@ -79,5 +79,49 @@
 # print(l)
 
 
-l = [i for i in range(1,21) if i % 2 == 0]
-print(l)
+# l = [i for i in range(1,21) if i % 2 == 0]
+# print(l)
+
+
+# l = {i : i**2 for i in range(1,11)}
+# print(l)
+
+# unique_even_number = {i*i for i in range(10) if i % 2 == 0}
+# print(unique_even_number)
+
+
+######################### Lambda Function ##########################
+
+# Normal Function 
+# def add(a,b):
+#     print(a + b)
+
+# add(12 ,13)
+
+
+# Lambda Function       # store in the variable , act as an object while calling the function 
+
+# addition = lambda a,b : a + b
+# print(addition(12 ,14))
+
+
+# square = lambda x : x**2
+# print(square(12))
+
+
+# check_even = lambda x : "Even" if x % 2 == 0 else "Odd"
+# print(check_even(13))
+
+
+################### MAP #####################
+
+a = [1,2,3,4,5]
+
+def double(x):
+    return x * 2
+
+double = map(double,a)
+
+# double = map(lambda x : x*2 , a)
+
+print(list(double))
