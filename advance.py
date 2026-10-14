@@ -115,13 +115,13 @@
 
 ################### MAP #####################
 
-a = [1,2,3,4,5]
+# a = [1,2,3,4,5]
 
-def double(x):
-    return x * 2
+# def double(x):
+#     return x * 2
 
-double = map(double,a)
+# double = map(double,a)
 
-# double = map(lambda x : x*2 , a)
+# # double = map(lambda x : x*2 , a)
 
-print(list(double))
+# print(list(double))
