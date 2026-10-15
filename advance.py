@@ -125,3 +125,6 @@
 # # double = map(lambda x : x*2 , a)
 
 # print(list(double))
+
+
+print("Python is a simple understandable language !!")
